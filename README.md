@@ -34,6 +34,11 @@ Look over the files and folders just to figure out **what’s there and what’s
 <summary> <h3> Step 2: Poke and Observe </h3></summary>
 At this point, you likely have a task or goal in mind—whether fixing a bug or adding a new feature—and need to find the relevant files to edit. Now that you're familiar with the file organization and have managed to run the code, we’ll take a Dr. House approach to locating the correct files and functions: change something and see what happens.
 
+#### Helpful Tips:
+- Modify UI Elements: Try changing colors, font sizes, or text content in the UI to confirm you're in the right place.
+- Print Debug Statements: Use console.log(), print(), or equivalent statements to check if a function is executing and inspect variable values.
+- Comment Out Sections: Temporarily disable parts of the code to see what breaks or changes, helping you pinpoint dependencies.
+
 #### Navigation Tools:
 
 - **Browser Inspection:**
@@ -46,13 +51,10 @@ For web development, most browsers come with built-in inspectors that allow you 
 
 
 - **Print as you go:**
-  [start with 
-  plonk a print staetment wherever]
-
-  Print statements help wuth:
-  - Check if a function is running
-  - check control flow
-  - ives you an x-ray into variables and parameters, can print whole file strutures and almost any data type with 
+  Print statements help with:
+  -Check if a function is running.
+  -Check the control flow.
+  -Provides an X-ray into variables and parameters; it can print entire file structures and almost any data type.
 
   <br/> When printing there are three main places your output might appear:
 
@@ -60,8 +62,6 @@ For web development, most browsers come with built-in inspectors that allow you 
 |---------------|---------------|---------------|
 | <img width="513" alt="Image" src="https://github.com/user-attachments/assets/2e89c844-901c-4d03-add7-9c8a00667a34" /> | <img width="513" alt="Image" src="https://github.com/user-attachments/assets/cc992840-3574-404f-847f-c7a3513c72c7" /> |![Image](https://github.com/user-attachments/assets/2489393d-c9b3-44ce-97c8-9dc3c3bf3f28) ![Image](https://github.com/user-attachments/assets/1323eccc-5c24-4401-b1f9-e64996144444)|
 | This is usually the terminal that you used to original run your project | **Chrome:** Right-click > Inspect > select the Console tab <br/> **Safari:** Right-click > Inspect Element  > select the Console tab  |the `log` file is a computer generate file that logs user actions, error messages and print statements (depending on the project settings) |
-
-
 
 - **Use IDE code navigation features:**
    Visual Studio has a host of ["Go To" features](https://learn.microsoft.com/en-us/visualstudio/ide/navigating-code?view=vs-2022&viewFallbackFrom=vs-2025) that allow you to quickly locate definitions, references, and implementations. Simply, right click on any function, variable, element, object etc.
